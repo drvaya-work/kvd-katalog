@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+
+  /* new css */
+.box-1{
+  height: 200px;
+  background: linear-gradient(90deg, rgba(22, 22, 22, 0.63), rgba(53, 52, 52, 0.61)),url('../food-menu/img/CHICKEN\ BIRIYANI\ .jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.box-2{
+  height: 200px;
+  background: linear-gradient(90deg, rgba(22, 22, 22, 0.63), rgba(53, 52, 52, 0.61)),url('../food-menu/img/DAL\ MAKHANI\ .jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 25px;
+  font-family: 'poppins';
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+}
+.title-1{
+  font-size: 25px;
+  font-family: 'poppins';
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+}
+.main-menu-2 {
+    padding-bottom: 30px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+<div class="menu-center">
+  <header class="top-nav">
+    <a href="#" class="nav-menu" onclick="myFunction()">
+        <span class="line first-line"></span>
+        <span class="line second-line"></span>
+        <span class="line three-line"></span>
+    </a>
+  </header>
+  <div class="menu">
+    <div class="content">
+        <p>The Kinara Village</p>
+    </div>
+  </div>
+  <a href="vagetarian-page.html" class="main-menu-2">
+    <div class="box-2">
+      <div class="title-1">
+        Pure-Veg
+      </div>
+    </div>
+  </a>    
+  <a href="non-vagetarian-page.html" class="main-menu-1">
+    <div class="box-1">
+     <div class="title">
+      Non-Veg
+     </div>
+    </div>
+  </a>     
+</div>
+
+            
+
+
+
+  
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "92%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+$(function(){
+  var $ul   =   $('.sidebar-navigation > ul');
+  
+  $ul.find('li a').click(function(e){
+    var $li = $(this).parent();
+    
+    if($li.find('ul').length > 0){
+      e.preventDefault();
+      
+      if($li.hasClass('selected')){
+        $li.removeClass('selected').find('li').removeClass('selected');
+        $li.find('ul').slideUp(400);
+        $li.find('a em').removeClass('mdi-flip-v');
+      }else{
+        
+        if($li.parents('li.selected').length == 0){
+          $ul.find('li').removeClass('selected');
+          $ul.find('ul').slideUp(400);
+          $ul.find('li a em').removeClass('mdi-flip-v');
+        }else{
+          $li.parent().find('li').removeClass('selected');
+          $li.parent().find('> li ul').slideUp(400);
+          $li.parent().find('> li a em').removeClass('mdi-flip-v');
+        }
+        
+        $li.addClass('selected');
+        $li.find('>ul').slideDown(400);
+        $li.find('>a>em').addClass('mdi-flip-v');
+      }
+    }
+  });
+  
+  
+  $('.sidebar-navigation > ul ul').each(function(i){
+    if($(this).find('>li>ul').length > 0){
+      var paddingLeft = $(this).parent().parent().find('>li>a').css('padding-left');
+      var pIntPLeft   = parseInt(paddingLeft);
+      var result      = pIntPLeft + 15;
+      
+      $(this).find('>li>a').css('padding-left',result);
+    }else{
+      var paddingLeft = $(this).parent().parent().find('>li>a').css('padding-left');
+      var pIntPLeft   = parseInt(paddingLeft);
+      var result      = pIntPLeft + 15;
+      
+      $(this).find('>li>a').css('padding-left',result).parent().addClass('selected--last');
+    }
+  });
+  
+  var t = ' li > ul ';
+  for(var i=1;i<=10;i++){
+    $('.sidebar-navigation > ul > ' + t.repeat(i)).addClass('subMenuColor' + i);
+  }
+  
+  var activeLi = $('li.selected');
+  if(activeLi.length){
+    opener(activeLi);
+  }
+  
+  function opener(li){
+    var ul = li.closest('ul');
+    if(ul.length){
+      
+        li.addClass('selected');
+        ul.addClass('open');
+        li.find('>a>em').addClass('mdi-flip-v');
+      
+      if(ul.closest('li').length){
+        opener(ul.closest('li'));
+      }else{
+        return false;
+      }
+      
+    }
+  }
+  
+});
+jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".dropdown-toggle").click(function () {
+        var t = e(this).parents(".button-dropdown").children(".dropdown-menu").is(":hidden");
+        e(".button-dropdown .dropdown-menu").hide();
+        e(".button-dropdown .dropdown-toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".button-dropdown").children(".dropdown-menu").toggle().parents(".button-dropdown").children(".dropdown-toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-toggle").removeClass("active");
+    })
+});
+
+$(document).ready(function(){
+  $("nav-menu").click(function(){
+    $("opening-hours").toggle();
+  });
+});
+function myFunction() {
+  var x = document.getElementById("menu-food");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+const accordionBtns = document.querySelectorAll(".accordion__title");
+// const divCollapse = document.querySelectorAll(".accordion__collapse");
+
+accordionBtns.forEach((button) => {
+  button.addEventListener("click", (event) => {
+    // console.log('click')
+
+    let accCollapse = button.nextElementSibling;
+
+    if (!button.classList.contains("collapsing")) {
+      // open accordion item
+      if (!button.classList.contains("open")) {
+        // console.log("click");
+
+        accCollapse.style.display = "block";
+        let accHeight = accCollapse.clientHeight;
+        // console.log(accHeight)
+
+        setTimeout(() => {
+          accCollapse.style.height = accHeight + "px";
+          accCollapse.style.display = "";
+        }, 1);
+
+        accCollapse.classList = "accordion__collapse collapsing";
+
+        setTimeout(() => {
+          //   console.log("click");
+          accCollapse.classList = "accordion__collapse collapse open";
+        }, 300);
+      }
+      //close accordion item
+      else {
+        accCollapse.classList = "accordion__collapse collapsing";
+
+        setTimeout(() => {
+          accCollapse.style.height = "0px";
+        }, 1);
+
+        //
+        setTimeout(() => {
+          //   console.log("click2");
+          accCollapse.classList = "accordion__collapse collapse";
+          accCollapse.style.height = "";
+        }, 300);
+      }
+
+      button.classList.toggle("open");
+    }
+  });
+});
+
+</script>
+   
+</body>
+</html> 

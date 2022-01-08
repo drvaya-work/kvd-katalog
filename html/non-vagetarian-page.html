@@ -1,0 +1,2699 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="menu-center">
+  <header class="top-nav">
+    <div class="top-menu">
+      <a href="#" class="nav-menu" onclick="myFunction()">
+          <span class="line first-line"></span>
+          <span class="line second-line"></span>
+          <span class="line three-line"></span>
+      </a>
+      <!-- v -->
+      <div id="menu-food" class="menu-food mt5 menu-time-food">
+        <div class="row">
+          <div class="col">
+            <p class="merchant-name">Food Mumbai</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col ng-star-inserted">
+            <p class="merchant-phone">
+              <a href="tel:1234567890">
+                <span class="call-icon">
+                  <img src="phone-icone.svg">
+                </span>
+                <span class="call-text">Call us</span>
+              </a>
+            </p>
+          </div>
+          <!---->
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <p class="modal-title">Opening hours</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <div class="opening-hours">
+              <table class="table table-borderless table-sm">
+                <tbody>
+                    <tr class="ng-star-inserted">
+                      <th scope="row">Monday</th><td>
+                        <p class="ng-star-inserted">12:00 AM - 11:59 PM</p>
+                        <!---->
+                      </td>
+                    </tr>
+                    <tr class="ng-star-inserted">
+                      <th scope="row">Tuesday</th>
+                      <td><p class="ng-star-inserted">12:00 AM - 11:59 PM</p>
+                        <!---->
+                      </td>
+                    </tr>
+                    <tr class="ng-star-inserted">
+                        <th scope="row">Wednesday</th>
+                        <td><p class="ng-star-inserted">12:00 AM - 11:59 PM</p>
+                          <!---->
+                        </td>
+                    </tr>
+                    <tr class="ng-star-inserted">
+                        <th scope="row">Thursday</th><td>
+                          <p class="ng-star-inserted">12:00 AM - 11:59 PM</p>
+                          <!---->
+                        </td>
+                    </tr>
+                    <tr class="ng-star-inserted">
+                        <th scope="row">Friday</th>
+                        <td>
+                          <p class="ng-star-inserted">12:00 AM - 11:59 PM</p>
+                          <!---->
+                        </td>
+                    </tr>
+                    <tr class="ng-star-inserted">
+                        <th scope="row">Saturday</th>
+                        <td>
+                          <p class="ng-star-inserted">12:00 AM - 11:59 PM</p>
+                          <!---->
+                        </td>
+                    </tr>
+                    <tr class="ng-star-inserted">
+                        <th scope="row">Sunday</th>
+                        <td>
+                          <p class="ng-star-inserted">12:00 AM - 11:59 PM</p>
+                          <!---->
+                        </td>
+                    </tr>
+                    <!---->
+                </tbody>
+              </table>
+              <div class="back-to-home-button">
+                  <a href="#" class="btn-white" type="button">Back To Home</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4 class="logo-tit"><a href="index.html">Food Menu</a></h4>
+    </div>
+          <!-- v -->
+    <div class="foot-nav">
+      <a href="#" class="menu-food" onclick="openNav()">Menu</a>
+      <div class="search-bar">
+        <a href="#" class="search-icon">
+          <img src="search-icon.svg" alt="serch" />
+        </a>
+        <input type="search" placeholder="search here" name="search">
+      </div>
+      <div class="button-dropdown">
+        <a href="javascript:void(0)" class="dropdown-toggle">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M33 37L33 12.9375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M33 8.5625L33 2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M39 10.75C39 9.85825 38.594 9.0349 37.9263 8.45063C37.2628 7.87008 36.3883 7.5625 35.5 7.5625L30.5 7.5625C29.6117 7.5625 28.7372 7.87008 28.0737 8.45063C27.406 9.0349 27 9.85825 27 10.75C27 11.6417 27.406 12.4651 28.0737 13.0494C28.7372 13.6299 29.6117 13.9375 30.5 13.9375L35.5 13.9375C36.3883 13.9375 37.2628 13.6299 37.9263 13.0494C38.594 12.4651 39 11.6417 39 10.75Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.99999 37L7.99999 12.9375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.99998 8.5625L7.99998 2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12.9263 13.0494C13.594 12.4651 14 11.6417 14 10.75C14 9.85825 13.594 9.0349 12.9263 8.45063C12.2628 7.87008 11.3883 7.5625 10.5 7.5625L5.5 7.5625C4.61167 7.5625 3.73721 7.87008 3.07373 8.45063C2.40598 9.03491 2 9.85826 2 10.75C2 11.6417 2.40598 12.4651 3.07373 13.0494C3.73721 13.6299 4.61167 13.9375 5.5 13.9375L10.5 13.9375C11.3883 13.9375 12.2628 13.6299 12.9263 13.0494Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20.5 26.0625L20.5 2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20.5 37L20.5 30.4375" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M26.5 28.25C26.5 27.3583 26.094 26.5349 25.4263 25.9506C24.7628 25.3701 23.8883 25.0625 23 25.0625L18 25.0625C17.1117 25.0625 16.2372 25.3701 15.5737 25.9506C14.906 26.5349 14.5 27.3583 14.5 28.25C14.5 29.1417 14.906 29.9651 15.5737 30.5494C16.2372 31.1299 17.1117 31.4375 18 31.4375L23 31.4375C23.8883 31.4375 24.7628 31.1299 25.4263 30.5494C26.094 29.9651 26.5 29.1417 26.5 28.25Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <label class="check-input">Vegetarian
+              <input type="checkbox" >
+              <span class="checkmark"></span>
+            </label>
+          </li>
+          <li>
+            <label class="check-input">Vegan
+              <input type="checkbox" >
+              <span class="checkmark"></span>
+            </label>
+          </li>
+          <li>
+            <label class="check-input">Eggetarian
+              <input type="checkbox" >
+              <span class="checkmark"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="sidebar-navigation">
+      <ul>
+          <li><a href="#">Pure-Veg <em class="mdi mdi-chevron-down"></em></a>
+              <ul>
+                  <li><a href="vagetarian-page.html#breckfast">BREAKFAST <em class="mdi mdi-chevron-down"></em></a>
+                     
+                  </li>
+                  <li><a href="vagetarian-page.html#iti-bits">TIT BITS <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="vagetarian-page.html#tandoori">TANDOORI <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="vagetarian-page.html#accompaniments">ACCOMPANIMENTS <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="vagetarian-page.html#chinese-starter">CHINESE STARTER <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="vagetarian-page.htmlcontinental">CONTINENTAL STARTERS <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="vagetarian-page.html#soup">SOUP <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="vagetarian-page.html#pizza">PIZZA <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="vagetarian-page.html#main-course">MAIN COURSE <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="vagetarian-page.html#mains">MAINS <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="vagetarian-page.html#sizzler">SIZZLER <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="vagetarian-page.html#lentils">LENTILS <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">RICE <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">RICE AND NOODLES <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">ROTIYAN <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">DESSERT <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">PREMIUM SCOTCH <em class="mdi mdi-chevron-down"></em></a>
+                   
+                  </li>
+                  <li><a href="#">REGULAR SCOTCH <em class="mdi mdi-chevron-down"></em></a>
+                   
+                  </li>
+                  <li><a href="#">PREMIUM WHISKY <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">REGULAR WHISKY <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">VODKA <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">TEQUILA <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">GIN <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">RUM <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">BRANDY <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">WINE <em class="mdi mdi-chevron-down"></em></a>
+                  
+                  </li>
+                  <li><a href="#">SPARKING WINE <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+                  <li><a href="#">BEER <em class="mdi mdi-chevron-down"></em></a>
+                   
+                  </li>
+                  <li><a href="#">BEVERAGES <em class="mdi mdi-chevron-down"></em></a>
+                   
+                  </li>
+                  <li><a href="#">COCKTAILS <em class="mdi mdi-chevron-down"></em></a>
+                   
+                  </li>
+                  <li><a href="#">MOCKTAILS <em class="mdi mdi-chevron-down"></em></a>
+                    
+                  </li>
+              </ul>
+          </li>
+          <li><a href="#">Non-Veg <em class="mdi mdi-chevron-down"></em></a>
+            <ul>
+              <li><a href="#breckfast">BREAKFAST <em class="mdi mdi-chevron-down"></em></a>
+                  
+              </li>
+              <li><a href="#iti-bits">TIT BITS <em class="mdi mdi-chevron-down"></em></a> 
+                
+              </li>
+              <li><a href="#tandoori">TANDOORI <em class="mdi mdi-chevron-down"></em></a>
+               
+              </li>
+              <li><a href="#accompaniments">ACCOMPANIMENTS <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#chinese-starter">CHINESE STARTER <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#beverages">BEVERAGES <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#premium-scotch">PREMIUM SCOTCH <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#regular-scotch">REGULAR SCOTCH <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#between-meals">BETWEEN MEALS <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#veg-chinese-starters">VEG CHINESE STARTERS <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#non-veg-chinese">NON-VEG CHINESE STARTERS <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#veg-indian">VEG INDIAN STARTERS<em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#veg-main">VEG MAIN COURSE <em class="mdi mdi-chevron-down"></em></a>
+               
+              </li>
+              <li><a href="#chicken-main-course">CHICKEN MAIN COURSE <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#muttim-main-course">MUTTON MAIN COURSE  <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#fish">FISH <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#fish-main-course">FISH MAIN COURSE <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#lentils">LENTILS <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#indian-soups">INDIAN SOUPS <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#chinese-soups">CHINESE SOUPS <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#rotiyan">ROTIYAN <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#rice-biryni">RICE & BIRYANI <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#rice-noondles">RICE & NOODLES <em class="mdi mdi-chevron-down"></em></a>
+               
+              </li>
+              <li><a href="#">DESSERT <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">EXTRAS <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">PREMIUM WHISKY  <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">REGULAR WHISKEY <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">VODKA <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">GIN  <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">RUM <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">BRANDY <em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">WINE<em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">BEER<em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">COCKTAILS<em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">MOCKTAILS<em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+              <li><a href="#">NEW YEAR<em class="mdi mdi-chevron-down"></em></a>
+                
+              </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="content">
+        <p>Non Vagetarian</p>
+    </div>
+  </div>
+  <div class="main-section">
+    <div id="breckfast" class="accordion">
+      <h4 class="title">Breakfast</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Idli</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <span class="spacial-carect">Chef's special</span>
+                    <h5 class="title">madu wada</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">uttapam</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">upma</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">sheera</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">plain dosa</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">neer dosa</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">mysore dosa</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">mysore masala dosa</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">cheese dosa</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">cheese masala dosa</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">set dosa</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">mysore bonda</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">kinara sp dosa</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">poha</h5>                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="iti-bits" class="accordion">
+      <h4 class="title">ITI Bits</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Hara bhara kabab</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <span class="spacial-carect">Chef's special</span>
+                    <h5 class="title">cheese pakoda</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">paneer pakoda</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">cheese cherry pineapple</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">kaju fry</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">channa garlic oli fry</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">garlic fry</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">channa oil fry</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">green peas garlic fry</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">boil chana chat</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">veg pakoda</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">boil channa</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">boil peanuts</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">french fries</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">boil peanut chat</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">jeera aloo</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <!-- AAAA -->
+                    <h5 class="title">Veg Sandwich</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Bread Butter</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Cheese sandwich</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Green Chilly fry</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Extra butter</h5>
+                    
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="tandoori" class="accordion">
+      <h4 class="title">Tandoori</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Hara Bhara Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Malai Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Cheese Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Mushroom Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Babycorn Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Mushroom Multani Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Pahadi Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Platter</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Reshmi Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Shirkaji Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Tandoor Aloo Tukde</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Tandoori Aloo</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Tandoori Gobi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Kofta</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Platter</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Seekh Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Sholey Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Achari Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Banjara Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Cheese Kasturi Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Kalimiri Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Malai Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Pahadi Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Platter</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="img/CHICKEN SEEKH KABAB.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Seekh Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Sholey Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Tandoori Full</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Tandoori Half</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Tangdi Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Mutton Sheek Kebab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Non Veg Platter</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Prawns Lassoni Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Prawns Tandoori</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Prawans Kalimiri Tikka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="accompaniments" class="accordion">
+      <h4 class="title">Accompaniments</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Boondi Raita</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <span class="spacial-carect">Chef's special</span>
+                    <h5 class="title">Dahi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Lassi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Masala Butter Milk</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Masala Papad</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                   <h5 class="title">Roasted Papad</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Fry Papad</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Green Salad</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Pineapple Raita</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Raita</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Roasted Masala Papad</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Kachumber Salad</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="chinese-starter" class="accordion">
+      <h4 class="title">Chinese Starter</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken 65</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <span class="spacial-carect">Chef's special</span>
+                    <h5 class="title">Chicken Chilly Dry</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="img/CHICKEN CRISPY .jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Crispy</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Lollypop</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Manchurian Dry</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Salt & Pepper</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Sez Dry</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Egg Chilli</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Chilly Gravy</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion">
+      <h4 class="title">MAIN COURSE</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Kaju Dingari Mutter</h5>  
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Chum-Chum</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Makhmali Kofta</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Moti Mahal</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Dilkhush Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Diwani Handi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Butter Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Makhanwala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Tikka Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Kadai</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Bhuna Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Malai Kofta</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Kasturi Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Corn Capsicum Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Chilli Milli Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Kadai</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Tawa</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Methi Mutter Malai</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Dum Aloo Punjabi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Makhanwala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Corn Palak Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Kolhapuri</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Lasooni Methi Palak</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Palak Paneer</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Kaju Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Kaju Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Lajawab</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Handi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Mutter Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Kolhapuri</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Mushroom Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Green Peas Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Bhurji</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chana Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Kaju Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Aloo Mutter</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Plain Butter Milk</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Cheese Butter Masala</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Cheese Sauce</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion">
+      <h4 class="title">LENTILS</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Dal Fry</h5> 
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Dal Khichdi</h5>  
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="img/DALKHICHDI TADKA.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Dal Khichdi Tadka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Dal Kolhapuri</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Dal Kolhapuri</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Dal Makhani</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Dal Palak</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Dal Palak Khichdi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Dal Tadka</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Masala Khichdi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion">
+      <h4 class="title">RICE & BIRYANI</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Curd Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Jeera Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Steam Rice</h5>  
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Butter Chicken Biryani</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="img/CHICKEN BIRIYANI.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Butter Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="img/CHICKEN BIRIYANI .jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Biryani</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Biryani Boneless</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Tikka Biryani</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Egg Biryani</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Mutton Biryani</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Paneer Biryani</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Prawns Biryani</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Biryani</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Hyderabadi Biryani</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Pulao</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion">
+      <h4 class="title">RICE & NOODLES</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Burnt Garlic Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken H/ Kong Friedrice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken H/ Kong Noodles</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Hakka Noodles</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Sanghai Noodles</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Sez Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Sez Hakka Noodles</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Singapore Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Trpl Sez Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Egg Burnt Garlic F. Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Egg Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Egg Hakka Noodles</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Egg Sez Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Egg Sez Noodles</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Mixed Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Burnt Garlic Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Hakka Noodles</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Shanghai Noodles</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Sez Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Sez Noodles</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Shanghai Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Singapore Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Veg Tripl Sez Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Prawans Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Singapore Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div><div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Singapore Fried Rice</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion">
+      <h4 class="title">ROTIYAN</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken 65</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <span class="spacial-carect">Chef's special</span>
+                    <h5 class="title">Chicken Chilly Dry</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Crispy</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Lollypop</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Manchurian Dry</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Salt & Pepper</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Sez Dry</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Egg Chilli</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chicken Chilly Gravy</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion">
+      <h4 class="title">DESSERT</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Gulab Jamun</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <span class="spacial-carect">Chef's special</span>
+                    <h5 class="title">Kesar Jalebi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Strawberry Ice Cream</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Butterscotch Ice Cream</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chocolate Ice Cream</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                   <h5 class="title">Gajar Halwa</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Kesar Pista Ice Cream</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Matka Kulfi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Rabdi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Vanilla Ice Cream</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion">
+      <h4 class="title">PREMIUM SCOTCH</h4>
+      <div class="accordion__item">
+        <button class="accordion__title">
+          Non Vegetarian
+        </button>
+        <div class="accordion__collapse collapse">
+          <div class="accordion__text">
+            <div class="item-list">
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Gulab Jamun</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <span class="spacial-carect">Chef's special</span>
+                    <h5 class="title">Kesar Jalebi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Strawberry Ice Cream</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Butterscotch Ice Cream</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Chocolate Ice Cream</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                   <h5 class="title">Gajar Halwa</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Kesar Pista Ice Cream</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Matka Kulfi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Rabdi</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-product-list">
+                <div class="item-product">
+                  <div class="product-img"><img src="thumnail.jpg" alt="#"></div>
+                  <div class="product-detail">
+                    <h5 class="title">Vanilla Ice Cream</h5>
+                    <span class="bottom-block"><div class="price-prod">395</div> <a href="#"><img src="red-icone.png"></a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+            
+
+
+
+  
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "92%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+$(function(){
+  var $ul   =   $('.sidebar-navigation > ul');
+  
+  $ul.find('li a').click(function(e){
+    var $li = $(this).parent();
+    
+    if($li.find('ul').length > 0){
+      e.preventDefault();
+      
+      if($li.hasClass('selected')){
+        $li.removeClass('selected').find('li').removeClass('selected');
+        $li.find('ul').slideUp(400);
+        $li.find('a em').removeClass('mdi-flip-v');
+      }else{
+        
+        if($li.parents('li.selected').length == 0){
+          $ul.find('li').removeClass('selected');
+          $ul.find('ul').slideUp(400);
+          $ul.find('li a em').removeClass('mdi-flip-v');
+        }else{
+          $li.parent().find('li').removeClass('selected');
+          $li.parent().find('> li ul').slideUp(400);
+          $li.parent().find('> li a em').removeClass('mdi-flip-v');
+        }
+        
+        $li.addClass('selected');
+        $li.find('>ul').slideDown(400);
+        $li.find('>a>em').addClass('mdi-flip-v');
+      }
+    }
+  });
+  
+  
+  $('.sidebar-navigation > ul ul').each(function(i){
+    if($(this).find('>li>ul').length > 0){
+      var paddingLeft = $(this).parent().parent().find('>li>a').css('padding-left');
+      var pIntPLeft   = parseInt(paddingLeft);
+      var result      = pIntPLeft + 15;
+      
+      $(this).find('>li>a').css('padding-left',result);
+    }else{
+      var paddingLeft = $(this).parent().parent().find('>li>a').css('padding-left');
+      var pIntPLeft   = parseInt(paddingLeft);
+      var result      = pIntPLeft + 15;
+      
+      $(this).find('>li>a').css('padding-left',result).parent().addClass('selected--last');
+    }
+  });
+  
+  var t = ' li > ul ';
+  for(var i=1;i<=10;i++){
+    $('.sidebar-navigation > ul > ' + t.repeat(i)).addClass('subMenuColor' + i);
+  }
+  
+  var activeLi = $('li.selected');
+  if(activeLi.length){
+    opener(activeLi);
+  }
+  
+  function opener(li){
+    var ul = li.closest('ul');
+    if(ul.length){
+      
+        li.addClass('selected');
+        ul.addClass('open');
+        li.find('>a>em').addClass('mdi-flip-v');
+      
+      if(ul.closest('li').length){
+        opener(ul.closest('li'));
+      }else{
+        return false;
+      }
+      
+    }
+  }
+  
+});
+jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".dropdown-toggle").click(function () {
+        var t = e(this).parents(".button-dropdown").children(".dropdown-menu").is(":hidden");
+        e(".button-dropdown .dropdown-menu").hide();
+        e(".button-dropdown .dropdown-toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".button-dropdown").children(".dropdown-menu").toggle().parents(".button-dropdown").children(".dropdown-toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-toggle").removeClass("active");
+    })
+});
+
+$(document).ready(function(){
+  $("nav-menu").click(function(){
+    $("opening-hours").toggle();
+  });
+});
+function myFunction() {
+  var x = document.getElementById("menu-food");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+const accordionBtns = document.querySelectorAll(".accordion__title");
+// const divCollapse = document.querySelectorAll(".accordion__collapse");
+
+accordionBtns.forEach((button) => {
+  button.addEventListener("click", (event) => {
+    // console.log('click')
+
+    let accCollapse = button.nextElementSibling;
+
+    if (!button.classList.contains("collapsing")) {
+      // open accordion item
+      if (!button.classList.contains("open")) {
+        // console.log("click");
+
+        accCollapse.style.display = "block";
+        let accHeight = accCollapse.clientHeight;
+        // console.log(accHeight)
+
+        setTimeout(() => {
+          accCollapse.style.height = accHeight + "px";
+          accCollapse.style.display = "";
+        }, 1);
+
+        accCollapse.classList = "accordion__collapse collapsing";
+
+        setTimeout(() => {
+          //   console.log("click");
+          accCollapse.classList = "accordion__collapse collapse open";
+        }, 300);
+      }
+      //close accordion item
+      else {
+        accCollapse.classList = "accordion__collapse collapsing";
+
+        setTimeout(() => {
+          accCollapse.style.height = "0px";
+        }, 1);
+
+        //
+        setTimeout(() => {
+          //   console.log("click2");
+          accCollapse.classList = "accordion__collapse collapse";
+          accCollapse.style.height = "";
+        }, 300);
+      }
+
+      button.classList.toggle("open");
+    }
+  });
+});
+
+</script>
+   
+</body>
+</html> 

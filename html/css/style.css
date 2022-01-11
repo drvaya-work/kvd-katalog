@@ -145,14 +145,17 @@ ul, li{
   top: 0;
   font-size: 28px;
 }
-
+.menu .content .logo-tit {
+  margin-bottom: 20px;
+  text-align: center;
+}
 .menu-center {
     max-width: 428px;
     margin: auto;
     height: auto;
     background: #ffffff;
     position: relative;
-    padding: 0 15px;
+    padding: 0 15px 25px;
 }
 .foot-nav {
     display: flex;

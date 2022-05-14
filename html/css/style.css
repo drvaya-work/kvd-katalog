@@ -250,24 +250,24 @@ input[type="search"] {
 }
 ::-webkit-scrollbar {
   width: 10px;
-  
+
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   border-radius: 10px;
-  box-shadow: inset 0 0 3px #000000; 
+  box-shadow: inset 0 0 3px #000000;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ffffff; 
+  background: #ffffff;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffffff; 
+  background: #ffffff;
 }
 .dropdown-menu {
     position: absolute;
@@ -291,7 +291,7 @@ input[type="search"] {
     padding-left: 25px;
     color: #ffffff;
 }
-.check-input input{ 
+.check-input input{
   opacity: 0;
 }
 
@@ -337,7 +337,7 @@ input[type="search"] {
   object-fit: cover;
   border-radius: 10px 10px 0 0;
   margin-right: 20px;
-  display: block;
+  display: none;
   object-position: center;
 }
 .spacial-carect {
@@ -353,9 +353,9 @@ input[type="search"] {
     margin-bottom: 0;
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 14px;
     line-height: 30px;
-    color: #000000;
+    color: #000000;    width: 230px;
 }
 .main-section .product-detail .title {
     font-size: 18px;
@@ -421,6 +421,7 @@ a.nav-menu::before {
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
+    vertical-align: middle;
     color: #FFFFFF;
     border-bottom: 1px solid;
 }
@@ -508,10 +509,13 @@ span a {
     text-align: right;
 }
 .call-icon {
-    vertical-align: sub;
+    vertical-align: text-top;
 }
 .accordion{
   padding-bottom: 5px;
+}
+.call-icon img{
+  width: 30px;
 }
 .accordion__item {
   border-bottom: 0.1rem solid var(--dividerGray);
@@ -523,7 +527,7 @@ span a {
 
 .accordion__title {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     border: none;
     width: 100%;
@@ -615,4 +619,10 @@ span a {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+}
+
+.menublastcate{
+  width: 140px;
+  vertical-align: middle;
+  padding-right: 20px;
 }

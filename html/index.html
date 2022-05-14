@@ -5,6 +5,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <style>
 
   /* new css */
@@ -73,7 +74,7 @@
             <p class="merchant-phone">
               <a href="tel:1234567890">
                 <span class="call-icon">
-                  <img src="phone-icone.svg">
+                  <img src="img/phone-icone.svg">
                 </span>
                 <span class="call-text">Call us</span>
               </a>
@@ -159,21 +160,21 @@
         Vegetarian
       </div>
     </div>
-  </a>    
+  </a>
   <a href="non-vagetarian-page.html" class="main-menu-1">
     <div class="box-1">
      <div class="title">
       Non Vegetarian
      </div>
     </div>
-  </a>     
+  </a>
 </div>
 
-            
 
 
 
-  
+
+
 
 
 
@@ -193,19 +194,19 @@ function closeNav() {
 
 $(function(){
   var $ul   =   $('.sidebar-navigation > ul');
-  
+
   $ul.find('li a').click(function(e){
     var $li = $(this).parent();
-    
+
     if($li.find('ul').length > 0){
       e.preventDefault();
-      
+
       if($li.hasClass('selected')){
         $li.removeClass('selected').find('li').removeClass('selected');
         $li.find('ul').slideUp(400);
         $li.find('a em').removeClass('mdi-flip-v');
       }else{
-        
+
         if($li.parents('li.selected').length == 0){
           $ul.find('li').removeClass('selected');
           $ul.find('ul').slideUp(400);
@@ -215,58 +216,58 @@ $(function(){
           $li.parent().find('> li ul').slideUp(400);
           $li.parent().find('> li a em').removeClass('mdi-flip-v');
         }
-        
+
         $li.addClass('selected');
         $li.find('>ul').slideDown(400);
         $li.find('>a>em').addClass('mdi-flip-v');
       }
     }
   });
-  
-  
+
+
   $('.sidebar-navigation > ul ul').each(function(i){
     if($(this).find('>li>ul').length > 0){
       var paddingLeft = $(this).parent().parent().find('>li>a').css('padding-left');
       var pIntPLeft   = parseInt(paddingLeft);
       var result      = pIntPLeft + 15;
-      
+
       $(this).find('>li>a').css('padding-left',result);
     }else{
       var paddingLeft = $(this).parent().parent().find('>li>a').css('padding-left');
       var pIntPLeft   = parseInt(paddingLeft);
       var result      = pIntPLeft + 15;
-      
+
       $(this).find('>li>a').css('padding-left',result).parent().addClass('selected--last');
     }
   });
-  
+
   var t = ' li > ul ';
   for(var i=1;i<=10;i++){
     $('.sidebar-navigation > ul > ' + t.repeat(i)).addClass('subMenuColor' + i);
   }
-  
+
   var activeLi = $('li.selected');
   if(activeLi.length){
     opener(activeLi);
   }
-  
+
   function opener(li){
     var ul = li.closest('ul');
     if(ul.length){
-      
+
         li.addClass('selected');
         ul.addClass('open');
         li.find('>a>em').addClass('mdi-flip-v');
-      
+
       if(ul.closest('li').length){
         opener(ul.closest('li'));
       }else{
         return false;
       }
-      
+
     }
   }
-  
+
 });
 jQuery(document).ready(function (e) {
     function t(t) {
@@ -358,6 +359,6 @@ accordionBtns.forEach((button) => {
 });
 
 </script>
-   
+
 </body>
-</html> 
+</html>

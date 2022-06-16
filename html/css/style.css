@@ -626,3 +626,9 @@ span a {
   vertical-align: middle;
   padding-right: 20px;
 }
+
+@media screen and (max-height: 360px) {
+  .main-section .title {
+    width: 170px;
+}
+}
